@@ -1,70 +1,58 @@
-# GhostBrain Infinity Asset Index
+# GhostBrain Infinity Asset Inventory
 
-## Brand Assets
+Generated: 2026-06-20 23:35:05
 
-- public/assets/brand/ghostbrain-infinity-logo-primary-transparent.png
-- public/assets/brand/ghostbrain-infinity-logo-horizontal-transparent.png
-- public/assets/brand/ghostbrain-infinity-icon-circle-transparent.png
-- public/assets/brand/ghostbrain-infinity-icon-standalone-transparent.png
-- public/assets/brand/devdevbuilds-logo-transparent.png
-- public/assets/brand/devdevbuilds-icon-circle.png
+## archive
 
-## UI Icons
 
-- public/assets/icons/vault.png
-- public/assets/icons/brain.png
-- public/assets/icons/ghost.png
-- public/assets/icons/infinity.png
-- public/assets/icons/graph.png
-- public/assets/icons/source.png
-- public/assets/icons/model.png
-- public/assets/icons/import.png
-- public/assets/icons/export.png
-- public/assets/icons/filter.png
-- public/assets/icons/search.png
-- public/assets/icons/inspector.png
-- public/assets/icons/activity.png
-- public/assets/icons/status.png
-- public/assets/icons/warning.png
-- public/assets/icons/settings.png
+## brand
 
-## State Assets
+- /assets/brand/.gitkeep
+- /assets/brand/devdevbuilds-credit.png
+- /assets/brand/devdevbuilds-icon-circle.png
+- /assets/brand/devdevbuilds-logo-transparent.png
+- /assets/brand/ghostbrain-infinity-icon-circle-transparent.png
+- /assets/brand/ghostbrain-infinity-icon-standalone-transparent.png
 
-- public/assets/states/empty-vault.png
-- public/assets/states/no-sources.png
-- public/assets/states/no-models.png
-- public/assets/states/import-success.png
-- public/assets/states/import-error.png
-- public/assets/states/graph-loading.png
-- public/assets/states/local-query-idle.png
+## icons
 
-## UI / Background Assets
+- /assets/icons/activity.png
+- /assets/icons/brain.png
+- /assets/icons/export.png
+- /assets/icons/filter.png
+- /assets/icons/ghost.png
+- /assets/icons/graph.png
+- /assets/icons/import.png
+- /assets/icons/infinity.png
+- /assets/icons/inspector.png
+- /assets/icons/model.png
+- /assets/icons/search.png
+- /assets/icons/settings.png
+- /assets/icons/source.png
+- /assets/icons/status.png
+- /assets/icons/vault.png
+- /assets/icons/warning.png
 
-- public/assets/ui/dashboard-hero-square.png
-- public/assets/ui/dashboard-bg-dark-metal.png
-- public/assets/ui/dashboard-bg-neural-grid.png
-- public/assets/ui/panel-metal-texture.png
-- public/assets/ui/card-glass-texture.png
-- public/assets/ui/button-metal-reference.png
+## social
 
-## Documentation Assets
+- /assets/social/ghostbrain-infinity-launch-preview.png
+- /assets/social/ghostbrain-infinity-square-post.png
+- /assets/social/ghostbrain-infinity-wide-banner.png
 
-- docs/assets/readme-header.png
-- docs/assets/github-social-preview.png
-- docs/assets/dashboard-preview.png
-- docs/assets/architecture-diagram.png
-- docs/assets/data-flow-diagram.png
-- docs/assets/phase-roadmap.png
+## states
 
-## Social Assets
+- /assets/states/empty-vault.png
+- /assets/states/graph-loading.png
+- /assets/states/import-error.png
+- /assets/states/import-success.png
+- /assets/states/local-query-idle.png
+- /assets/states/no-models.png
+- /assets/states/no-sources.png
 
-- public/assets/social/ghostbrain-infinity-square-post.png
-- public/assets/social/ghostbrain-infinity-wide-banner.png
-- public/assets/social/ghostbrain-infinity-launch-preview.png
-- public/assets/social/devdevbuilds-project-preview.png
+## ui
 
-## Notes
+- /assets/ui/button-metal-reference.png
+- /assets/ui/card-glass-texture.png
+- /assets/ui/dashboard-hero-square.png
+- /assets/ui/panel-metal-texture.png
 
-Generated icon assets are PNG files. They should not be renamed as SVG files unless recreated as true vector SVGs.
-
-GhostBrain Infinity is the project identity. devdevbuilds is the parent studio/brand identity.
