@@ -1,0 +1,506 @@
+[
+  {
+    "id": "cluster-ai-models-edge-hub-1",
+    "sourceId": "cluster-ai-models-node-1",
+    "targetId": "cluster-ai-models-node-2",
+    "relationship": "clusters",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "cluster-ai-models-edge-hub-2",
+    "sourceId": "cluster-ai-models-node-1",
+    "targetId": "cluster-ai-models-node-3",
+    "relationship": "clusters",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "cluster-ai-models-edge-hub-3",
+    "sourceId": "cluster-ai-models-node-1",
+    "targetId": "cluster-ai-models-node-4",
+    "relationship": "clusters",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "cluster-ai-models-edge-hub-4",
+    "sourceId": "cluster-ai-models-node-1",
+    "targetId": "cluster-ai-models-node-5",
+    "relationship": "clusters",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "cluster-ai-models-edge-link-0",
+    "sourceId": "cluster-ai-models-node-1",
+    "targetId": "cluster-ai-models-node-2",
+    "relationship": "relates",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "cluster-ai-models-edge-link-1",
+    "sourceId": "cluster-ai-models-node-2",
+    "targetId": "cluster-ai-models-node-3",
+    "relationship": "relates",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "cluster-ai-models-edge-link-2",
+    "sourceId": "cluster-ai-models-node-3",
+    "targetId": "cluster-ai-models-node-4",
+    "relationship": "relates",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "cluster-ai-models-edge-link-3",
+    "sourceId": "cluster-ai-models-node-4",
+    "targetId": "cluster-ai-models-node-5",
+    "relationship": "relates",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "cluster-ai-models-edge-link-4",
+    "sourceId": "cluster-ai-models-node-5",
+    "targetId": "cluster-ai-models-node-1",
+    "relationship": "relates",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "cluster-cybersecurity-edge-hub-1",
+    "sourceId": "cluster-cybersecurity-node-1",
+    "targetId": "cluster-cybersecurity-node-2",
+    "relationship": "clusters",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "cluster-cybersecurity-edge-hub-2",
+    "sourceId": "cluster-cybersecurity-node-1",
+    "targetId": "cluster-cybersecurity-node-3",
+    "relationship": "clusters",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "cluster-cybersecurity-edge-hub-3",
+    "sourceId": "cluster-cybersecurity-node-1",
+    "targetId": "cluster-cybersecurity-node-4",
+    "relationship": "clusters",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "cluster-cybersecurity-edge-hub-4",
+    "sourceId": "cluster-cybersecurity-node-1",
+    "targetId": "cluster-cybersecurity-node-5",
+    "relationship": "clusters",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "cluster-cybersecurity-edge-link-0",
+    "sourceId": "cluster-cybersecurity-node-1",
+    "targetId": "cluster-cybersecurity-node-2",
+    "relationship": "relates",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "cluster-cybersecurity-edge-link-1",
+    "sourceId": "cluster-cybersecurity-node-2",
+    "targetId": "cluster-cybersecurity-node-3",
+    "relationship": "relates",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "cluster-cybersecurity-edge-link-2",
+    "sourceId": "cluster-cybersecurity-node-3",
+    "targetId": "cluster-cybersecurity-node-4",
+    "relationship": "relates",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "cluster-cybersecurity-edge-link-3",
+    "sourceId": "cluster-cybersecurity-node-4",
+    "targetId": "cluster-cybersecurity-node-5",
+    "relationship": "relates",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "cluster-cybersecurity-edge-link-4",
+    "sourceId": "cluster-cybersecurity-node-5",
+    "targetId": "cluster-cybersecurity-node-1",
+    "relationship": "relates",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "cluster-code-projects-edge-hub-1",
+    "sourceId": "cluster-code-projects-node-1",
+    "targetId": "cluster-code-projects-node-2",
+    "relationship": "clusters",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "cluster-code-projects-edge-hub-2",
+    "sourceId": "cluster-code-projects-node-1",
+    "targetId": "cluster-code-projects-node-3",
+    "relationship": "clusters",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "cluster-code-projects-edge-hub-3",
+    "sourceId": "cluster-code-projects-node-1",
+    "targetId": "cluster-code-projects-node-4",
+    "relationship": "clusters",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "cluster-code-projects-edge-hub-4",
+    "sourceId": "cluster-code-projects-node-1",
+    "targetId": "cluster-code-projects-node-5",
+    "relationship": "clusters",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "cluster-code-projects-edge-link-0",
+    "sourceId": "cluster-code-projects-node-1",
+    "targetId": "cluster-code-projects-node-2",
+    "relationship": "relates",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "cluster-code-projects-edge-link-1",
+    "sourceId": "cluster-code-projects-node-2",
+    "targetId": "cluster-code-projects-node-3",
+    "relationship": "relates",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "cluster-code-projects-edge-link-2",
+    "sourceId": "cluster-code-projects-node-3",
+    "targetId": "cluster-code-projects-node-4",
+    "relationship": "relates",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "cluster-code-projects-edge-link-3",
+    "sourceId": "cluster-code-projects-node-4",
+    "targetId": "cluster-code-projects-node-5",
+    "relationship": "relates",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "cluster-code-projects-edge-link-4",
+    "sourceId": "cluster-code-projects-node-5",
+    "targetId": "cluster-code-projects-node-1",
+    "relationship": "relates",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "cluster-research-edge-hub-1",
+    "sourceId": "cluster-research-node-1",
+    "targetId": "cluster-research-node-2",
+    "relationship": "clusters",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "cluster-research-edge-hub-2",
+    "sourceId": "cluster-research-node-1",
+    "targetId": "cluster-research-node-3",
+    "relationship": "clusters",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "cluster-research-edge-hub-3",
+    "sourceId": "cluster-research-node-1",
+    "targetId": "cluster-research-node-4",
+    "relationship": "clusters",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "cluster-research-edge-hub-4",
+    "sourceId": "cluster-research-node-1",
+    "targetId": "cluster-research-node-5",
+    "relationship": "clusters",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "cluster-research-edge-link-0",
+    "sourceId": "cluster-research-node-1",
+    "targetId": "cluster-research-node-2",
+    "relationship": "relates",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "cluster-research-edge-link-1",
+    "sourceId": "cluster-research-node-2",
+    "targetId": "cluster-research-node-3",
+    "relationship": "relates",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "cluster-research-edge-link-2",
+    "sourceId": "cluster-research-node-3",
+    "targetId": "cluster-research-node-4",
+    "relationship": "relates",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "cluster-research-edge-link-3",
+    "sourceId": "cluster-research-node-4",
+    "targetId": "cluster-research-node-5",
+    "relationship": "relates",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "cluster-research-edge-link-4",
+    "sourceId": "cluster-research-node-5",
+    "targetId": "cluster-research-node-1",
+    "relationship": "relates",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "cluster-creative-assets-edge-hub-1",
+    "sourceId": "cluster-creative-assets-node-1",
+    "targetId": "cluster-creative-assets-node-2",
+    "relationship": "clusters",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "cluster-creative-assets-edge-hub-2",
+    "sourceId": "cluster-creative-assets-node-1",
+    "targetId": "cluster-creative-assets-node-3",
+    "relationship": "clusters",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "cluster-creative-assets-edge-hub-3",
+    "sourceId": "cluster-creative-assets-node-1",
+    "targetId": "cluster-creative-assets-node-4",
+    "relationship": "clusters",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "cluster-creative-assets-edge-hub-4",
+    "sourceId": "cluster-creative-assets-node-1",
+    "targetId": "cluster-creative-assets-node-5",
+    "relationship": "clusters",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "cluster-creative-assets-edge-link-0",
+    "sourceId": "cluster-creative-assets-node-1",
+    "targetId": "cluster-creative-assets-node-2",
+    "relationship": "relates",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "cluster-creative-assets-edge-link-1",
+    "sourceId": "cluster-creative-assets-node-2",
+    "targetId": "cluster-creative-assets-node-3",
+    "relationship": "relates",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "cluster-creative-assets-edge-link-2",
+    "sourceId": "cluster-creative-assets-node-3",
+    "targetId": "cluster-creative-assets-node-4",
+    "relationship": "relates",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "cluster-creative-assets-edge-link-3",
+    "sourceId": "cluster-creative-assets-node-4",
+    "targetId": "cluster-creative-assets-node-5",
+    "relationship": "relates",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "cluster-creative-assets-edge-link-4",
+    "sourceId": "cluster-creative-assets-node-5",
+    "targetId": "cluster-creative-assets-node-1",
+    "relationship": "relates",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "cluster-personal-knowledge-edge-hub-1",
+    "sourceId": "cluster-personal-knowledge-node-1",
+    "targetId": "cluster-personal-knowledge-node-2",
+    "relationship": "clusters",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "cluster-personal-knowledge-edge-hub-2",
+    "sourceId": "cluster-personal-knowledge-node-1",
+    "targetId": "cluster-personal-knowledge-node-3",
+    "relationship": "clusters",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "cluster-personal-knowledge-edge-hub-3",
+    "sourceId": "cluster-personal-knowledge-node-1",
+    "targetId": "cluster-personal-knowledge-node-4",
+    "relationship": "clusters",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "cluster-personal-knowledge-edge-hub-4",
+    "sourceId": "cluster-personal-knowledge-node-1",
+    "targetId": "cluster-personal-knowledge-node-5",
+    "relationship": "clusters",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "cluster-personal-knowledge-edge-link-0",
+    "sourceId": "cluster-personal-knowledge-node-1",
+    "targetId": "cluster-personal-knowledge-node-2",
+    "relationship": "relates",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "cluster-personal-knowledge-edge-link-1",
+    "sourceId": "cluster-personal-knowledge-node-2",
+    "targetId": "cluster-personal-knowledge-node-3",
+    "relationship": "relates",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "cluster-personal-knowledge-edge-link-2",
+    "sourceId": "cluster-personal-knowledge-node-3",
+    "targetId": "cluster-personal-knowledge-node-4",
+    "relationship": "relates",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "cluster-personal-knowledge-edge-link-3",
+    "sourceId": "cluster-personal-knowledge-node-4",
+    "targetId": "cluster-personal-knowledge-node-5",
+    "relationship": "relates",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "cluster-personal-knowledge-edge-link-4",
+    "sourceId": "cluster-personal-knowledge-node-5",
+    "targetId": "cluster-personal-knowledge-node-1",
+    "relationship": "relates",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "cluster-voice-layer-edge-hub-1",
+    "sourceId": "cluster-voice-layer-node-1",
+    "targetId": "cluster-voice-layer-node-2",
+    "relationship": "clusters",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "cluster-voice-layer-edge-hub-2",
+    "sourceId": "cluster-voice-layer-node-1",
+    "targetId": "cluster-voice-layer-node-3",
+    "relationship": "clusters",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "cluster-voice-layer-edge-hub-3",
+    "sourceId": "cluster-voice-layer-node-1",
+    "targetId": "cluster-voice-layer-node-4",
+    "relationship": "clusters",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "cluster-voice-layer-edge-hub-4",
+    "sourceId": "cluster-voice-layer-node-1",
+    "targetId": "cluster-voice-layer-node-5",
+    "relationship": "clusters",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "cluster-voice-layer-edge-link-0",
+    "sourceId": "cluster-voice-layer-node-1",
+    "targetId": "cluster-voice-layer-node-2",
+    "relationship": "relates",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "cluster-voice-layer-edge-link-1",
+    "sourceId": "cluster-voice-layer-node-2",
+    "targetId": "cluster-voice-layer-node-3",
+    "relationship": "relates",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "cluster-voice-layer-edge-link-2",
+    "sourceId": "cluster-voice-layer-node-3",
+    "targetId": "cluster-voice-layer-node-4",
+    "relationship": "relates",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "cluster-voice-layer-edge-link-3",
+    "sourceId": "cluster-voice-layer-node-4",
+    "targetId": "cluster-voice-layer-node-5",
+    "relationship": "relates",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "cluster-voice-layer-edge-link-4",
+    "sourceId": "cluster-voice-layer-node-5",
+    "targetId": "cluster-voice-layer-node-1",
+    "relationship": "relates",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "cluster-import-export-edge-hub-1",
+    "sourceId": "cluster-import-export-node-1",
+    "targetId": "cluster-import-export-node-2",
+    "relationship": "clusters",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "cluster-import-export-edge-hub-2",
+    "sourceId": "cluster-import-export-node-1",
+    "targetId": "cluster-import-export-node-3",
+    "relationship": "clusters",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "cluster-import-export-edge-hub-3",
+    "sourceId": "cluster-import-export-node-1",
+    "targetId": "cluster-import-export-node-4",
+    "relationship": "clusters",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "cluster-import-export-edge-hub-4",
+    "sourceId": "cluster-import-export-node-1",
+    "targetId": "cluster-import-export-node-5",
+    "relationship": "clusters",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "cluster-import-export-edge-link-0",
+    "sourceId": "cluster-import-export-node-1",
+    "targetId": "cluster-import-export-node-2",
+    "relationship": "relates",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "cluster-import-export-edge-link-1",
+    "sourceId": "cluster-import-export-node-2",
+    "targetId": "cluster-import-export-node-3",
+    "relationship": "relates",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "cluster-import-export-edge-link-2",
+    "sourceId": "cluster-import-export-node-3",
+    "targetId": "cluster-import-export-node-4",
+    "relationship": "relates",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "cluster-import-export-edge-link-3",
+    "sourceId": "cluster-import-export-node-4",
+    "targetId": "cluster-import-export-node-5",
+    "relationship": "relates",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "cluster-import-export-edge-link-4",
+    "sourceId": "cluster-import-export-node-5",
+    "targetId": "cluster-import-export-node-1",
+    "relationship": "relates",
+    "clusterId": "cluster-import-export"
+  }
+]

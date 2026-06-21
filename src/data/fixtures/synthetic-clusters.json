@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cluster-ai-models",
+    "label": "AI Models",
+    "description": "Synthetic model registry, local runtime, embedding, and routing records.",
+    "category": "LLM",
+    "sourceType": "Manual",
+    "recordCount": 20,
+    "nodeCount": 5,
+    "edgeCount": 10,
+    "status": "Architecture Ready"
+  },
+  {
+    "id": "cluster-cybersecurity",
+    "label": "Cybersecurity",
+    "description": "Synthetic operations and security-monitoring notes for dashboard density testing.",
+    "category": "Research",
+    "sourceType": "Document",
+    "recordCount": 18,
+    "nodeCount": 5,
+    "edgeCount": 10,
+    "status": "Index Pending"
+  },
+  {
+    "id": "cluster-code-projects",
+    "label": "Code Projects",
+    "description": "Synthetic frontend, backend, repository, and helper architecture notes.",
+    "category": "Code",
+    "sourceType": "Code",
+    "recordCount": 18,
+    "nodeCount": 5,
+    "edgeCount": 10,
+    "status": "Architecture Ready"
+  },
+  {
+    "id": "cluster-research",
+    "label": "Research",
+    "description": "Synthetic research summaries, reliability notes, and RAG concepts.",
+    "category": "Research",
+    "sourceType": "Research",
+    "recordCount": 16,
+    "nodeCount": 5,
+    "edgeCount": 10,
+    "status": "Index Pending"
+  },
+  {
+    "id": "cluster-creative-assets",
+    "label": "Creative Assets",
+    "description": "Synthetic brand asset, mascot, texture, icon, and lockup usage notes.",
+    "category": "Image",
+    "sourceType": "Image",
+    "recordCount": 14,
+    "nodeCount": 5,
+    "edgeCount": 10,
+    "status": "Architecture Ready"
+  },
+  {
+    "id": "cluster-personal-knowledge",
+    "label": "Personal Knowledge",
+    "description": "Generic placeholder memory records with no private or personal content.",
+    "category": "Manual",
+    "sourceType": "Manual",
+    "recordCount": 14,
+    "nodeCount": 5,
+    "edgeCount": 10,
+    "status": "Local Stub"
+  },
+  {
+    "id": "cluster-voice-layer",
+    "label": "Voice Layer",
+    "description": "Synthetic future speech, audio, transcript, and voice-routing placeholders.",
+    "category": "Audio",
+    "sourceType": "Audio",
+    "recordCount": 14,
+    "nodeCount": 5,
+    "edgeCount": 10,
+    "status": "Adapter Pending"
+  },
+  {
+    "id": "cluster-import-export",
+    "label": "Import/Export",
+    "description": "Synthetic import, export, backup, replacement, and activity workflow records.",
+    "category": "Local",
+    "sourceType": "JSON",
+    "recordCount": 14,
+    "nodeCount": 5,
+    "edgeCount": 10,
+    "status": "Adapter Pending"
+  }
+]

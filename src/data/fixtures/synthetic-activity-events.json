@@ -1,0 +1,258 @@
+[
+  {
+    "id": "synthetic-activity-01",
+    "title": "AI Models Import Event",
+    "description": "Synthetic Test Corpus activity for AI Models. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-01T08:00:00.000Z",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "synthetic-activity-02",
+    "title": "Cybersecurity Registry Change",
+    "description": "Synthetic Test Corpus activity for Cybersecurity. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-02T09:00:00.000Z",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "synthetic-activity-03",
+    "title": "Code Projects Graph Update Note",
+    "description": "Synthetic Test Corpus activity for Code Projects. This event is safe to delete with the demo vault.",
+    "status": "warning",
+    "timestamp": "2026-06-03T10:00:00.000Z",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "synthetic-activity-04",
+    "title": "Research Index Status Note",
+    "description": "Synthetic Test Corpus activity for Research. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-04T11:00:00.000Z",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "synthetic-activity-05",
+    "title": "Creative Assets Import Event",
+    "description": "Synthetic Test Corpus activity for Creative Assets. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-05T12:00:00.000Z",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "synthetic-activity-06",
+    "title": "Personal Knowledge Registry Change",
+    "description": "Synthetic Test Corpus activity for Personal Knowledge. This event is safe to delete with the demo vault.",
+    "status": "warning",
+    "timestamp": "2026-06-06T13:00:00.000Z",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "synthetic-activity-07",
+    "title": "Voice Layer Graph Update Note",
+    "description": "Synthetic Test Corpus activity for Voice Layer. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-07T14:00:00.000Z",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "synthetic-activity-08",
+    "title": "Import/Export Index Status Note",
+    "description": "Synthetic Test Corpus activity for Import/Export. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-08T15:00:00.000Z",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "synthetic-activity-09",
+    "title": "AI Models Import Event",
+    "description": "Synthetic Test Corpus activity for AI Models. This event is safe to delete with the demo vault.",
+    "status": "warning",
+    "timestamp": "2026-06-09T16:00:00.000Z",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "synthetic-activity-10",
+    "title": "Cybersecurity Registry Change",
+    "description": "Synthetic Test Corpus activity for Cybersecurity. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-10T17:00:00.000Z",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "synthetic-activity-11",
+    "title": "Code Projects Graph Update Note",
+    "description": "Synthetic Test Corpus activity for Code Projects. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-11T08:00:00.000Z",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "synthetic-activity-12",
+    "title": "Research Index Status Note",
+    "description": "Synthetic Test Corpus activity for Research. This event is safe to delete with the demo vault.",
+    "status": "warning",
+    "timestamp": "2026-06-12T09:00:00.000Z",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "synthetic-activity-13",
+    "title": "Creative Assets Import Event",
+    "description": "Synthetic Test Corpus activity for Creative Assets. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-13T10:00:00.000Z",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "synthetic-activity-14",
+    "title": "Personal Knowledge Registry Change",
+    "description": "Synthetic Test Corpus activity for Personal Knowledge. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-14T11:00:00.000Z",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "synthetic-activity-15",
+    "title": "Voice Layer Graph Update Note",
+    "description": "Synthetic Test Corpus activity for Voice Layer. This event is safe to delete with the demo vault.",
+    "status": "warning",
+    "timestamp": "2026-06-15T12:00:00.000Z",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "synthetic-activity-16",
+    "title": "Import/Export Index Status Note",
+    "description": "Synthetic Test Corpus activity for Import/Export. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-16T13:00:00.000Z",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "synthetic-activity-17",
+    "title": "AI Models Import Event",
+    "description": "Synthetic Test Corpus activity for AI Models. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-17T14:00:00.000Z",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "synthetic-activity-18",
+    "title": "Cybersecurity Registry Change",
+    "description": "Synthetic Test Corpus activity for Cybersecurity. This event is safe to delete with the demo vault.",
+    "status": "warning",
+    "timestamp": "2026-06-18T15:00:00.000Z",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "synthetic-activity-19",
+    "title": "Code Projects Graph Update Note",
+    "description": "Synthetic Test Corpus activity for Code Projects. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-19T16:00:00.000Z",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "synthetic-activity-20",
+    "title": "Research Index Status Note",
+    "description": "Synthetic Test Corpus activity for Research. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-20T17:00:00.000Z",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "synthetic-activity-21",
+    "title": "Creative Assets Import Event",
+    "description": "Synthetic Test Corpus activity for Creative Assets. This event is safe to delete with the demo vault.",
+    "status": "warning",
+    "timestamp": "2026-06-01T08:00:00.000Z",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "synthetic-activity-22",
+    "title": "Personal Knowledge Registry Change",
+    "description": "Synthetic Test Corpus activity for Personal Knowledge. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-02T09:00:00.000Z",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "synthetic-activity-23",
+    "title": "Voice Layer Graph Update Note",
+    "description": "Synthetic Test Corpus activity for Voice Layer. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-03T10:00:00.000Z",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "synthetic-activity-24",
+    "title": "Import/Export Index Status Note",
+    "description": "Synthetic Test Corpus activity for Import/Export. This event is safe to delete with the demo vault.",
+    "status": "warning",
+    "timestamp": "2026-06-04T11:00:00.000Z",
+    "clusterId": "cluster-import-export"
+  },
+  {
+    "id": "synthetic-activity-25",
+    "title": "AI Models Import Event",
+    "description": "Synthetic Test Corpus activity for AI Models. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-05T12:00:00.000Z",
+    "clusterId": "cluster-ai-models"
+  },
+  {
+    "id": "synthetic-activity-26",
+    "title": "Cybersecurity Registry Change",
+    "description": "Synthetic Test Corpus activity for Cybersecurity. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-06T13:00:00.000Z",
+    "clusterId": "cluster-cybersecurity"
+  },
+  {
+    "id": "synthetic-activity-27",
+    "title": "Code Projects Graph Update Note",
+    "description": "Synthetic Test Corpus activity for Code Projects. This event is safe to delete with the demo vault.",
+    "status": "warning",
+    "timestamp": "2026-06-07T14:00:00.000Z",
+    "clusterId": "cluster-code-projects"
+  },
+  {
+    "id": "synthetic-activity-28",
+    "title": "Research Index Status Note",
+    "description": "Synthetic Test Corpus activity for Research. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-08T15:00:00.000Z",
+    "clusterId": "cluster-research"
+  },
+  {
+    "id": "synthetic-activity-29",
+    "title": "Creative Assets Import Event",
+    "description": "Synthetic Test Corpus activity for Creative Assets. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-09T16:00:00.000Z",
+    "clusterId": "cluster-creative-assets"
+  },
+  {
+    "id": "synthetic-activity-30",
+    "title": "Personal Knowledge Registry Change",
+    "description": "Synthetic Test Corpus activity for Personal Knowledge. This event is safe to delete with the demo vault.",
+    "status": "warning",
+    "timestamp": "2026-06-10T17:00:00.000Z",
+    "clusterId": "cluster-personal-knowledge"
+  },
+  {
+    "id": "synthetic-activity-31",
+    "title": "Voice Layer Graph Update Note",
+    "description": "Synthetic Test Corpus activity for Voice Layer. This event is safe to delete with the demo vault.",
+    "status": "ready",
+    "timestamp": "2026-06-11T08:00:00.000Z",
+    "clusterId": "cluster-voice-layer"
+  },
+  {
+    "id": "synthetic-activity-32",
+    "title": "Import/Export Index Status Note",
+    "description": "Synthetic Test Corpus activity for Import/Export. This event is safe to delete with the demo vault.",
+    "status": "idle",
+    "timestamp": "2026-06-12T09:00:00.000Z",
+    "clusterId": "cluster-import-export"
+  }
+]

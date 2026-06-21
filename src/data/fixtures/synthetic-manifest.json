@@ -1,0 +1,15 @@
+{
+  "datasetName": "GhostBrain Infinity Synthetic Test Corpus",
+  "datasetVersion": "0.1.0",
+  "recordCount": 128,
+  "modelCount": 9,
+  "nodeCount": 40,
+  "edgeCount": 72,
+  "clusterCount": 8,
+  "activityEventCount": 32,
+  "createdFor": "Development clustering, filtering, graph, registry, activity, persistence, import/export, and future RAG architecture testing",
+  "isSynthetic": true,
+  "safeToDelete": true,
+  "replacementTarget": "Real imported user/project data",
+  "notes": "All records are synthetic development fixtures. No real personal data, credentials, private documents, or sensitive security incidents are included."
+}

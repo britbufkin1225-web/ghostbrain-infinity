@@ -1,0 +1,246 @@
+[
+  {
+    "id": "synthetic-qwen-local",
+    "name": "Qwen Local Demo",
+    "provider": "Ollama placeholder",
+    "providerType": "Ollama",
+    "modelType": "LLM",
+    "category": "LLM",
+    "description": "Qwen Local Demo is a synthetic development fixture model record. It does not execute AI calls.",
+    "status": "idle",
+    "enabled": true,
+    "localOnly": true,
+    "requiresApiKey": false,
+    "contextWindow": 32768,
+    "capabilities": [
+      "chat",
+      "summarize",
+      "retrieve",
+      "route"
+    ],
+    "tags": [
+      "synthetic",
+      "local-first",
+      "enabled"
+    ],
+    "lastUsed": null,
+    "notes": "Local registry fixture only. Adapter pending.",
+    "clusterId": "cluster-ai-models",
+    "fixtureKind": "Synthetic Test Corpus"
+  },
+  {
+    "id": "synthetic-llama-local",
+    "name": "Llama Local Demo",
+    "provider": "Ollama placeholder",
+    "providerType": "Ollama",
+    "modelType": "LLM",
+    "category": "LLM",
+    "description": "Llama Local Demo is a synthetic development fixture model record. It does not execute AI calls.",
+    "status": "idle",
+    "enabled": true,
+    "localOnly": true,
+    "requiresApiKey": false,
+    "contextWindow": 32768,
+    "capabilities": [
+      "chat",
+      "summarize"
+    ],
+    "tags": [
+      "synthetic",
+      "local-first",
+      "enabled"
+    ],
+    "lastUsed": null,
+    "notes": "Local registry fixture only. Adapter pending.",
+    "clusterId": "cluster-ai-models",
+    "fixtureKind": "Synthetic Test Corpus"
+  },
+  {
+    "id": "synthetic-code-local",
+    "name": "Code Local Demo",
+    "provider": "Local LLM placeholder",
+    "providerType": "Local LLM",
+    "modelType": "Code",
+    "category": "Code",
+    "description": "Code Local Demo is a synthetic development fixture model record. It does not execute AI calls.",
+    "status": "idle",
+    "enabled": true,
+    "localOnly": true,
+    "requiresApiKey": false,
+    "contextWindow": 32768,
+    "capabilities": [
+      "codeAssist",
+      "retrieve"
+    ],
+    "tags": [
+      "synthetic",
+      "local-first",
+      "enabled"
+    ],
+    "lastUsed": null,
+    "notes": "Local registry fixture only. Adapter pending.",
+    "clusterId": "cluster-code-projects",
+    "fixtureKind": "Synthetic Test Corpus"
+  },
+  {
+    "id": "synthetic-embedding-local",
+    "name": "Embedding Local Demo",
+    "provider": "Local embedding placeholder",
+    "providerType": "Local LLM",
+    "modelType": "Embedding",
+    "category": "LLM",
+    "description": "Embedding Local Demo is a synthetic development fixture model record. It does not execute AI calls.",
+    "status": "idle",
+    "enabled": false,
+    "localOnly": true,
+    "requiresApiKey": false,
+    "contextWindow": null,
+    "capabilities": [
+      "embed",
+      "retrieve"
+    ],
+    "tags": [
+      "synthetic",
+      "local-first",
+      "disabled-by-default"
+    ],
+    "lastUsed": null,
+    "notes": "Local registry fixture only. Adapter pending.",
+    "clusterId": "cluster-research",
+    "fixtureKind": "Synthetic Test Corpus"
+  },
+  {
+    "id": "synthetic-vision-cloud",
+    "name": "Vision Cloud Demo",
+    "provider": "Cloud provider placeholder",
+    "providerType": "Gemini",
+    "modelType": "Vision",
+    "category": "Image",
+    "description": "Vision Cloud Demo is a synthetic development fixture model record. It does not execute AI calls.",
+    "status": "warning",
+    "enabled": false,
+    "localOnly": false,
+    "requiresApiKey": true,
+    "contextWindow": 32768,
+    "capabilities": [
+      "analyzeImage",
+      "summarize"
+    ],
+    "tags": [
+      "synthetic",
+      "cloud-optional",
+      "disabled-by-default"
+    ],
+    "lastUsed": null,
+    "notes": "API key required later. No key is stored in this demo corpus.",
+    "clusterId": "cluster-creative-assets",
+    "fixtureKind": "Synthetic Test Corpus"
+  },
+  {
+    "id": "synthetic-openai-compatible",
+    "name": "OpenAI-Compatible Demo",
+    "provider": "OpenAI-compatible API",
+    "providerType": "OpenAI-compatible API",
+    "modelType": "LLM",
+    "category": "LLM",
+    "description": "OpenAI-Compatible Demo is a synthetic development fixture model record. It does not execute AI calls.",
+    "status": "warning",
+    "enabled": false,
+    "localOnly": false,
+    "requiresApiKey": true,
+    "contextWindow": 32768,
+    "capabilities": [
+      "chat",
+      "summarize",
+      "route"
+    ],
+    "tags": [
+      "synthetic",
+      "cloud-optional",
+      "disabled-by-default"
+    ],
+    "lastUsed": null,
+    "notes": "API key required later. No key is stored in this demo corpus.",
+    "clusterId": "cluster-ai-models",
+    "fixtureKind": "Synthetic Test Corpus"
+  },
+  {
+    "id": "synthetic-research-cloud",
+    "name": "Research Cloud Demo",
+    "provider": "Claude placeholder",
+    "providerType": "Claude",
+    "modelType": "Research",
+    "category": "Research",
+    "description": "Research Cloud Demo is a synthetic development fixture model record. It does not execute AI calls.",
+    "status": "warning",
+    "enabled": false,
+    "localOnly": false,
+    "requiresApiKey": true,
+    "contextWindow": 32768,
+    "capabilities": [
+      "summarize",
+      "retrieve"
+    ],
+    "tags": [
+      "synthetic",
+      "cloud-optional",
+      "disabled-by-default"
+    ],
+    "lastUsed": null,
+    "notes": "API key required later. No key is stored in this demo corpus.",
+    "clusterId": "cluster-research",
+    "fixtureKind": "Synthetic Test Corpus"
+  },
+  {
+    "id": "synthetic-stt-local",
+    "name": "SpeechToText Local Demo",
+    "provider": "Local audio placeholder",
+    "providerType": "Local LLM",
+    "modelType": "SpeechToText",
+    "category": "Audio",
+    "description": "SpeechToText Local Demo is a synthetic development fixture model record. It does not execute AI calls.",
+    "status": "idle",
+    "enabled": false,
+    "localOnly": true,
+    "requiresApiKey": false,
+    "contextWindow": null,
+    "capabilities": [
+      "transcribe"
+    ],
+    "tags": [
+      "synthetic",
+      "local-first",
+      "disabled-by-default"
+    ],
+    "lastUsed": null,
+    "notes": "Local registry fixture only. Adapter pending.",
+    "clusterId": "cluster-voice-layer",
+    "fixtureKind": "Synthetic Test Corpus"
+  },
+  {
+    "id": "synthetic-tts-local",
+    "name": "TextToSpeech Local Demo",
+    "provider": "Local audio placeholder",
+    "providerType": "Local LLM",
+    "modelType": "TextToSpeech",
+    "category": "Audio",
+    "description": "TextToSpeech Local Demo is a synthetic development fixture model record. It does not execute AI calls.",
+    "status": "idle",
+    "enabled": false,
+    "localOnly": true,
+    "requiresApiKey": false,
+    "contextWindow": null,
+    "capabilities": [
+      "speak"
+    ],
+    "tags": [
+      "synthetic",
+      "local-first",
+      "disabled-by-default"
+    ],
+    "lastUsed": null,
+    "notes": "Local registry fixture only. Adapter pending.",
+    "clusterId": "cluster-voice-layer",
+    "fixtureKind": "Synthetic Test Corpus"
+  }
+]

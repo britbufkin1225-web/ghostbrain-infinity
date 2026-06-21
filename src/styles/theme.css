@@ -1,0 +1,31 @@
+:root {
+  color-scheme: dark;
+  --color-background: #050608;
+  --color-graphite: #0b0d10;
+  --color-gunmetal: #161a20;
+  --color-chrome: #242932;
+  --color-platinum: #e8edf2;
+  --color-silver: #aeb7c2;
+  --color-muted-cyan: #77e6ff;
+  --color-ghost-blue: #8fb8ff;
+  --color-signal-violet: #8d7cff;
+  --color-warning: #f5b84b;
+  --color-danger: #ff4d5e;
+  --gb-bg-deep: #050607;
+  --gb-bg-panel: rgba(15, 17, 20, 0.88);
+  --gb-metal-dark: #111318;
+  --gb-metal-mid: #2a2d33;
+  --gb-metal-light: #d7dde6;
+  --gb-border-soft: rgba(255, 255, 255, 0.12);
+  --gb-border-bright: rgba(255, 255, 255, 0.28);
+  --gb-text-main: #f3f5f8;
+  --gb-text-muted: #9ca3af;
+  --shadow-panel: 0 24px 80px rgba(0, 0, 0, 0.38);
+  --shadow-metal-raised: 0 18px 42px rgba(0, 0, 0, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.13), inset 0 -18px 24px rgba(0, 0, 0, 0.22);
+  --shadow-metal-pressed: inset 0 2px 16px rgba(0, 0, 0, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  --border-soft: 1px solid rgba(232, 237, 242, 0.11);
+  --border-chrome: 1px solid rgba(232, 237, 242, 0.16);
+  --shadow-inner-chrome: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 -24px 42px rgba(0, 0, 0, 0.16);
+  --font-ui: Inter, Geist, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+}

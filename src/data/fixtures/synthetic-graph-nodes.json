@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cluster-ai-models-node-1",
+    "label": "AI Models",
+    "category": "LLM",
+    "status": "ready",
+    "clusterId": "cluster-ai-models",
+    "sourceId": "cluster-ai-models-source-01"
+  },
+  {
+    "id": "cluster-ai-models-node-2",
+    "label": "Ollama Provider Placeholder",
+    "category": "LLM",
+    "status": "idle",
+    "clusterId": "cluster-ai-models",
+    "sourceId": "cluster-ai-models-source-02"
+  },
+  {
+    "id": "cluster-ai-models-node-3",
+    "label": "Qwen Local Model Placeholder",
+    "category": "LLM",
+    "status": "idle",
+    "clusterId": "cluster-ai-models",
+    "sourceId": "cluster-ai-models-source-03"
+  },
+  {
+    "id": "cluster-ai-models-node-4",
+    "label": "Llama Local Model Placeholder",
+    "category": "LLM",
+    "status": "warning",
+    "clusterId": "cluster-ai-models",
+    "sourceId": "cluster-ai-models-source-04"
+  },
+  {
+    "id": "cluster-ai-models-node-5",
+    "label": "Embedding Model Placeholder",
+    "category": "LLM",
+    "status": "idle",
+    "clusterId": "cluster-ai-models",
+    "sourceId": "cluster-ai-models-source-05"
+  },
+  {
+    "id": "cluster-cybersecurity-node-1",
+    "label": "Cybersecurity",
+    "category": "Research",
+    "status": "ready",
+    "clusterId": "cluster-cybersecurity",
+    "sourceId": "cluster-cybersecurity-source-01"
+  },
+  {
+    "id": "cluster-cybersecurity-node-2",
+    "label": "Network Scan Log Sample",
+    "category": "Research",
+    "status": "idle",
+    "clusterId": "cluster-cybersecurity",
+    "sourceId": "cluster-cybersecurity-source-02"
+  },
+  {
+    "id": "cluster-cybersecurity-node-3",
+    "label": "Suspicious Login Event Sample",
+    "category": "Research",
+    "status": "idle",
+    "clusterId": "cluster-cybersecurity",
+    "sourceId": "cluster-cybersecurity-source-03"
+  },
+  {
+    "id": "cluster-cybersecurity-node-4",
+    "label": "Firewall Rule Note",
+    "category": "Research",
+    "status": "warning",
+    "clusterId": "cluster-cybersecurity",
+    "sourceId": "cluster-cybersecurity-source-04"
+  },
+  {
+    "id": "cluster-cybersecurity-node-5",
+    "label": "Endpoint Monitoring Note",
+    "category": "Research",
+    "status": "idle",
+    "clusterId": "cluster-cybersecurity",
+    "sourceId": "cluster-cybersecurity-source-05"
+  },
+  {
+    "id": "cluster-code-projects-node-1",
+    "label": "Code Projects",
+    "category": "Code",
+    "status": "ready",
+    "clusterId": "cluster-code-projects",
+    "sourceId": "cluster-code-projects-source-01"
+  },
+  {
+    "id": "cluster-code-projects-node-2",
+    "label": "Frontend Dashboard Note",
+    "category": "Code",
+    "status": "idle",
+    "clusterId": "cluster-code-projects",
+    "sourceId": "cluster-code-projects-source-02"
+  },
+  {
+    "id": "cluster-code-projects-node-3",
+    "label": "GitHub Repo Note",
+    "category": "Code",
+    "status": "idle",
+    "clusterId": "cluster-code-projects",
+    "sourceId": "cluster-code-projects-source-03"
+  },
+  {
+    "id": "cluster-code-projects-node-4",
+    "label": "Component Architecture Note",
+    "category": "Code",
+    "status": "warning",
+    "clusterId": "cluster-code-projects",
+    "sourceId": "cluster-code-projects-source-04"
+  },
+  {
+    "id": "cluster-code-projects-node-5",
+    "label": "Import Export Helper Note",
+    "category": "Code",
+    "status": "idle",
+    "clusterId": "cluster-code-projects",
+    "sourceId": "cluster-code-projects-source-05"
+  },
+  {
+    "id": "cluster-research-node-1",
+    "label": "Research",
+    "category": "Research",
+    "status": "ready",
+    "clusterId": "cluster-research",
+    "sourceId": "cluster-research-source-01"
+  },
+  {
+    "id": "cluster-research-node-2",
+    "label": "Technical Research Note",
+    "category": "Research",
+    "status": "idle",
+    "clusterId": "cluster-research",
+    "sourceId": "cluster-research-source-02"
+  },
+  {
+    "id": "cluster-research-node-3",
+    "label": "RAG Architecture Note",
+    "category": "Research",
+    "status": "idle",
+    "clusterId": "cluster-research",
+    "sourceId": "cluster-research-source-03"
+  },
+  {
+    "id": "cluster-research-node-4",
+    "label": "Memory Indexing Concept",
+    "category": "Research",
+    "status": "warning",
+    "clusterId": "cluster-research",
+    "sourceId": "cluster-research-source-04"
+  },
+  {
+    "id": "cluster-research-node-5",
+    "label": "Source Reliability Note",
+    "category": "Research",
+    "status": "idle",
+    "clusterId": "cluster-research",
+    "sourceId": "cluster-research-source-05"
+  },
+  {
+    "id": "cluster-creative-assets-node-1",
+    "label": "Creative Assets",
+    "category": "Image",
+    "status": "ready",
+    "clusterId": "cluster-creative-assets",
+    "sourceId": "cluster-creative-assets-source-01"
+  },
+  {
+    "id": "cluster-creative-assets-node-2",
+    "label": "GhostBrain Mascot Note",
+    "category": "Image",
+    "status": "idle",
+    "clusterId": "cluster-creative-assets",
+    "sourceId": "cluster-creative-assets-source-02"
+  },
+  {
+    "id": "cluster-creative-assets-node-3",
+    "label": "Devdevbuilds Brand Note",
+    "category": "Image",
+    "status": "idle",
+    "clusterId": "cluster-creative-assets",
+    "sourceId": "cluster-creative-assets-source-03"
+  },
+  {
+    "id": "cluster-creative-assets-node-4",
+    "label": "UI Texture Reference Note",
+    "category": "Image",
+    "status": "warning",
+    "clusterId": "cluster-creative-assets",
+    "sourceId": "cluster-creative-assets-source-04"
+  },
+  {
+    "id": "cluster-creative-assets-node-5",
+    "label": "Header Lockup Note",
+    "category": "Image",
+    "status": "idle",
+    "clusterId": "cluster-creative-assets",
+    "sourceId": "cluster-creative-assets-source-05"
+  },
+  {
+    "id": "cluster-personal-knowledge-node-1",
+    "label": "Personal Knowledge",
+    "category": "Manual",
+    "status": "ready",
+    "clusterId": "cluster-personal-knowledge",
+    "sourceId": "cluster-personal-knowledge-source-01"
+  },
+  {
+    "id": "cluster-personal-knowledge-node-2",
+    "label": "Sample Reminder Note",
+    "category": "Manual",
+    "status": "idle",
+    "clusterId": "cluster-personal-knowledge",
+    "sourceId": "cluster-personal-knowledge-source-02"
+  },
+  {
+    "id": "cluster-personal-knowledge-node-3",
+    "label": "Sample Project Idea Note",
+    "category": "Manual",
+    "status": "idle",
+    "clusterId": "cluster-personal-knowledge",
+    "sourceId": "cluster-personal-knowledge-source-03"
+  },
+  {
+    "id": "cluster-personal-knowledge-node-4",
+    "label": "Sample Learning Goal Note",
+    "category": "Manual",
+    "status": "warning",
+    "clusterId": "cluster-personal-knowledge",
+    "sourceId": "cluster-personal-knowledge-source-04"
+  },
+  {
+    "id": "cluster-personal-knowledge-node-5",
+    "label": "Sample Reading Queue Note",
+    "category": "Manual",
+    "status": "idle",
+    "clusterId": "cluster-personal-knowledge",
+    "sourceId": "cluster-personal-knowledge-source-05"
+  },
+  {
+    "id": "cluster-voice-layer-node-1",
+    "label": "Voice Layer",
+    "category": "Audio",
+    "status": "ready",
+    "clusterId": "cluster-voice-layer",
+    "sourceId": "cluster-voice-layer-source-01"
+  },
+  {
+    "id": "cluster-voice-layer-node-2",
+    "label": "Text-To-Speech Placeholder",
+    "category": "Audio",
+    "status": "idle",
+    "clusterId": "cluster-voice-layer",
+    "sourceId": "cluster-voice-layer-source-02"
+  },
+  {
+    "id": "cluster-voice-layer-node-3",
+    "label": "Voice Model Placeholder",
+    "category": "Audio",
+    "status": "idle",
+    "clusterId": "cluster-voice-layer",
+    "sourceId": "cluster-voice-layer-source-03"
+  },
+  {
+    "id": "cluster-voice-layer-node-4",
+    "label": "Audio Transcript Sample",
+    "category": "Audio",
+    "status": "warning",
+    "clusterId": "cluster-voice-layer",
+    "sourceId": "cluster-voice-layer-source-04"
+  },
+  {
+    "id": "cluster-voice-layer-node-5",
+    "label": "Future Voice Interaction Note",
+    "category": "Audio",
+    "status": "idle",
+    "clusterId": "cluster-voice-layer",
+    "sourceId": "cluster-voice-layer-source-05"
+  },
+  {
+    "id": "cluster-import-export-node-1",
+    "label": "Import/Export",
+    "category": "Local",
+    "status": "ready",
+    "clusterId": "cluster-import-export",
+    "sourceId": "cluster-import-export-source-01"
+  },
+  {
+    "id": "cluster-import-export-node-2",
+    "label": "Imported JSON Sample",
+    "category": "Local",
+    "status": "idle",
+    "clusterId": "cluster-import-export",
+    "sourceId": "cluster-import-export-source-02"
+  },
+  {
+    "id": "cluster-import-export-node-3",
+    "label": "Imported Code File Sample",
+    "category": "Local",
+    "status": "idle",
+    "clusterId": "cluster-import-export",
+    "sourceId": "cluster-import-export-source-03"
+  },
+  {
+    "id": "cluster-import-export-node-4",
+    "label": "Import Activity Event",
+    "category": "Local",
+    "status": "warning",
+    "clusterId": "cluster-import-export",
+    "sourceId": "cluster-import-export-source-04"
+  },
+  {
+    "id": "cluster-import-export-node-5",
+    "label": "Export Activity Event",
+    "category": "Local",
+    "status": "idle",
+    "clusterId": "cluster-import-export",
+    "sourceId": "cluster-import-export-source-05"
+  }
+]
