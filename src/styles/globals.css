@@ -1997,3 +1997,133 @@ button:focus-visible {
     width: min(100%, 340px);
   }
 }
+
+/* Phase 9H — compact dashboard command header override */
+
+.app-header {
+  display: grid !important;
+  grid-template-columns: minmax(260px, 420px) minmax(360px, 1fr) !important;
+  align-items: center !important;
+  gap: 18px !important;
+  min-height: 92px !important;
+  max-height: 128px !important;
+  padding: 16px 22px !important;
+  overflow: hidden !important;
+}
+
+.app-header__brand {
+  display: grid !important;
+  grid-template-columns: auto 1fr !important;
+  grid-template-areas:
+    "logo subtitle";
+  align-items: center !important;
+  gap: 14px !important;
+  min-width: 0 !important;
+}
+
+.app-header__lockup {
+  grid-area: logo !important;
+  width: clamp(220px, 23vw, 360px) !important;
+  max-height: 70px !important;
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: left center !important;
+  display: block !important;
+}
+
+.app-header__subtitle {
+  grid-area: subtitle !important;
+  margin-top: 0 !important;
+  max-width: 220px !important;
+  font-size: 0.72rem !important;
+  line-height: 1.35 !important;
+  color: rgba(230, 237, 245, 0.66) !important;
+}
+
+.app-header__controls {
+  display: grid !important;
+  grid-template-columns: 1fr auto !important;
+  grid-template-areas:
+    "chips actions"
+    "studio studio" !important;
+  align-items: center !important;
+  justify-items: end !important;
+  gap: 8px 12px !important;
+  min-width: 0 !important;
+}
+
+.app-header__chips {
+  grid-area: chips !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
+}
+
+.app-header__actions {
+  grid-area: actions !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex-wrap: nowrap !important;
+}
+
+.app-header__studio {
+  grid-area: studio !important;
+  justify-content: flex-end !important;
+  opacity: 0.72 !important;
+}
+
+.app-header__studio-logo {
+  width: 96px !important;
+  max-height: 24px !important;
+}
+
+.status-chip {
+  min-height: 30px !important;
+  padding: 0 10px !important;
+  font-size: 0.72rem !important;
+}
+
+.app-header__actions button,
+.app-header__actions .placeholder-button {
+  min-height: 34px !important;
+  padding: 0 12px !important;
+  white-space: nowrap !important;
+}
+
+/* Only stack the header on actual narrow/mobile widths */
+@media (max-width: 720px) {
+  .app-header {
+    grid-template-columns: 1fr !important;
+    max-height: none !important;
+  }
+
+  .app-header__brand {
+    grid-template-columns: 1fr !important;
+    grid-template-areas:
+      "logo"
+      "subtitle" !important;
+  }
+
+  .app-header__lockup {
+    width: min(100%, 330px) !important;
+  }
+
+  .app-header__controls {
+    grid-template-columns: 1fr !important;
+    grid-template-areas:
+      "chips"
+      "actions"
+      "studio" !important;
+    justify-items: start !important;
+  }
+
+  .app-header__chips,
+  .app-header__actions,
+  .app-header__studio {
+    justify-content: flex-start !important;
+  }
+}
