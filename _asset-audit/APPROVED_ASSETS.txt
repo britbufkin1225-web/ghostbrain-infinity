@@ -1,0 +1,12 @@
+src/assets/brand/ghostbrain-infinity-header-lockup-transparent.png
+src/assets/brand/ghostbrain-infinity-logo-primary-transparent.png
+src/assets/icons/ghostbrain-icon-primary.png
+src/assets/icons/ghostbrain-icon-transparent.png
+src/assets/icons/ghostbrain-icon-watermark.png
+src/assets/studio/devdevbuilds-secondary-mark.png
+src/assets/studio/devdevbuilds-footer-mark.png
+src/assets/studio/devdevbuilds-small-transparent.png
+src/assets/ui/ui-black-glass-panel-reference.png
+src/assets/ui/ui-dashboard-surface-reference.png
+src/assets/ui/ui-embossed-control-reference.png
+src/assets/ui/ui-metal-button-reference.png

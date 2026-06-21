@@ -480,7 +480,17 @@ export default function Dashboard() {
               </div>
             </div>
             <div className="graph-placeholder" aria-label="Current graph placeholder">
-              <img className="graph-watermark" src={brandAssets.dashboardMark} alt="GhostBrain Infinity dashboard mark" />
+  {brandAssets.dashboardMark ? (
+    <img
+      className="graph-watermark"
+      src={brandAssets.dashboardMark}
+      alt="GhostBrain Infinity dashboard mark"
+    />
+  ) : (
+    <div className="graph-watermark graph-watermark--text" aria-hidden="true">
+      GhostBrain Infinity
+    </div>
+  )}
               {graphClusterNodes.map((cluster, index) => (
                 <button className={`graph-node graph-node--${index}`} key={cluster.id} type="button" onClick={() => { setSelectedModelId(undefined); setSelectedProviderId(undefined); commitVault((draft) => { draft.selectedRecordId = undefined; draft.selectedSourceId = undefined; draft.selectedClusterId = cluster.id; draft.selectedNodeId = `cluster-node-${cluster.id}`; draft.activeFilters.cluster = cluster.id; }); }}>
                   {cluster.name}
@@ -815,3 +825,5 @@ export default function Dashboard() {
     </DashboardShell>
   );
 }
+
+

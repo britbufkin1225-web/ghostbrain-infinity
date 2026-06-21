@@ -20,11 +20,18 @@ export function AppHeader({ telemetry }: AppHeaderProps) {
         className="app-header__brand"
         aria-label={`${appConfig.projectName} by ${appConfig.parentBrand}`}
       >
-        <img
-          className="app-header__lockup"
-          src={brandAssets.primaryHeaderLockup}
-          alt="GhostBrain Infinity"
-        />
+        {brandAssets.primaryHeaderLockup ? (
+          <img
+            className="app-header__lockup"
+            src={brandAssets.primaryHeaderLockup}
+            alt="GhostBrain Infinity"
+          />
+        ) : (
+          <div className="app-header__text-lockup" aria-label="GhostBrain Infinity">
+            <strong>{appConfig.projectName}</strong>
+            <span>local-first AI memory vault</span>
+          </div>
+        )}
 
         <h1 className="sr-only">{appConfig.projectName}</h1>
 
@@ -64,11 +71,18 @@ export function AppHeader({ telemetry }: AppHeaderProps) {
 
         <div className="app-header__studio">
           <span>by</span>
-          <img
-            className="app-header__studio-logo"
-            src={brandAssets.devdevbuildsLogo}
-            alt="devdevbuilds"
-          />
+
+          {brandAssets.devdevbuildsLogo ? (
+            <img
+              className="app-header__studio-logo"
+              src={brandAssets.devdevbuildsLogo}
+              alt="devdevbuilds"
+            />
+          ) : (
+            <span className="app-header__studio-text">
+              devdevbuilds
+            </span>
+          )}
         </div>
       </div>
     </header>
